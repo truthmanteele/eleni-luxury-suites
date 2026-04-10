@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://eleni-luxury-suites.netlify.app/sitemap.xml
