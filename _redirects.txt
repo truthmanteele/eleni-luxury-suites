@@ -1,2 +1,0 @@
-/manifest.json  /manifest.json  200
-  Content-Type: application/manifest+json
