@@ -110,6 +110,16 @@ body {
   left: 20%;
 }
 
+.menu-item.checkin-highlight {
+  border: 2px solid #c9a86a; /* gold outline */
+  box-sizing: border-box;
+}
+
+.menu-item.checkin-highlight:hover {
+  background: #c9a86a; /* gold fill on hover */
+  color: #fff;
+}
+
 /* SECTIONS */
 .section {
   padding: 30px 20px;
