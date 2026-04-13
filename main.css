@@ -677,82 +677,14 @@ html {
     grid-template-columns: repeat(3, 1fr);
 }
 /* --------------------------------------------- */
-/* EMERGENCY NUMBERS SECTION — CLEAN & FIXED */
+/* EMERGENCY — ICON SIZE FIX */
 /* --------------------------------------------- */
 
-/* Section Title */
-.section-title {
-  font-size: 26px;
-  font-weight: 600;
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-/* Gold Line */
-.gold-line {
-  width: 60px;
-  height: 3px;
-  background-color: #C9A86A;
-  margin: 0 auto 15px auto;
-}
-
-/* Subtitle */
-.section-subtitle {
-  text-align: center;
-  font-size: 15px;
-  color: #555;
-  margin-bottom: 30px;
-}
-
-/* Grid */
-.emergency-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 20px;
-}
-
-@media (min-width: 768px) {
-  .emergency-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-/* Boxes */
-.emergency-box {
-  background: #fff;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-}
-
-.emergency-box h3 {
-  margin-bottom: 12px;
-  font-size: 18px;
-  font-weight: 600;
-}
-
-/* Lists */
-.emergency-box ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.emergency-box li {
-  margin-bottom: 6px;
-}
-
-/* Items with icons */
-.health-item,
-.taxi-item {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-.icon {
-  width: 20px;
-  margin-right: 10px;
+.info-icon {
+  font-size: 32px;
+  color: #c9a86a;
+  line-height: 1;
+  margin-top: 4px;
 }
 /* update */
 
