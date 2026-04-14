@@ -642,12 +642,5 @@ html {
     grid-template-columns: repeat(3, 1fr);
   }
 } 
-body.home-only #content {
-  display: none !important;
-  visibility: hidden !important;
-  opacity: 0 !important;
-  height: 0 !important;
-  overflow: hidden !important;
-}
-
+/* update */
 
