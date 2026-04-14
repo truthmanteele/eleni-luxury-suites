@@ -123,6 +123,19 @@ body {
   color: #fff;
 }
 
+.menu-item.booknow-highlight {
+  background: #c9a86a;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 12px;
+  border: 2px solid #c9a86a;
+}
+
+.menu-item.booknow-highlight:hover {
+  background: #c9a86a;
+  color: #fff;
+}
+
 /* SECTIONS */
 .section {
   padding: 30px 20px;
