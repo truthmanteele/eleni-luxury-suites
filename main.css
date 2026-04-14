@@ -642,5 +642,9 @@ html {
     grid-template-columns: repeat(3, 1fr);
   }
 } 
+body.home-only #content {
+  display: none;
+}
+  
 /* update */
 
