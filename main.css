@@ -643,6 +643,11 @@ html {
   }
 } 
 body.home-only #content {
-  display: none;
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  height: 0 !important;
+  overflow: hidden !important;
 }
+
 
