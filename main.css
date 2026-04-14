@@ -350,6 +350,30 @@ footer {
   margin-bottom: 40px;
 }
 
+/* --------------------------------------------- */
+/* Rooms & Amenities */
+/* --------------------------------------------- */
+
+/* Two-column bullet layout */
+.suite-details.two-columns {
+  columns: 2;
+  column-gap: 40px;
+  padding-left: 20px;
+  margin-top: 15px;
+}
+
+.suite-details.two-columns li {
+  break-inside: avoid;
+  margin-bottom: 8px;
+}
+
+/* Mobile: return to 1 column */
+@media (max-width: 768px) {
+  .suite-details.two-columns {
+    columns: 1;
+  }
+}
+
 /* TEXT */
 .suite-text p {
   margin-bottom: 16px;
