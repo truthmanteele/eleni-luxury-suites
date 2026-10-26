@@ -110,8 +110,7 @@ body {
   left: 20%;
 }
 
-.menu-item.checkin-highlight 
-.menu-item booknow No2-highlight{
+.menu-item.checkin-highlight {
   background: #c9a86a;
   color: #fff;
   font-weight: 600;
@@ -119,8 +118,7 @@ body {
   border: 2px solid #c9a86a;
 }
 
-.menu-item.checkin-highlight:hover 
-.menu-item booknow No2-highlight{
+.menu-item.checkin-highlight:hover {
   background: #c9a86a;
   color: #fff;
 }
